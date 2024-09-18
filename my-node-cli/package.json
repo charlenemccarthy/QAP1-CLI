@@ -1,0 +1,25 @@
+{
+  "name": "my-node-cli",
+  "version": "1.0.0",
+  "description": "QAP1 CLI app",
+  "main": "index.js",
+  "bin": {
+    "password-generator": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests defined\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlenemccarthy/QAP1-CLI.git"
+  },
+  "author": "Charlene McCarthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlenemccarthy/QAP1-CLI/issues"
+  },
+  "homepage": "https://github.com/charlenemccarthy/QAP1-CLI#readme",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
